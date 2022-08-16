@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbody{
+    background-image: url(/Assest/Images/camera-man.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodyone {   
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    background-color: rgba(22, 61, 82, 0.9);
+}
+
+.container1 {
+    margin-top: 20px;
+    width: 75vw;
+    height: 80vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    font-size: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+ul li img{
+    height: 24px;
+   margin-top: 1px;
+   margin-right: 15px;
+}
+
+.button {
+    display: flex;
+    font-size: 15px;
+}
+
+.button p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: rgb(122, 121, 121);
+}
+
+.button button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgba(22, 61, 82, 1.5);
+    color: white;
+    cursor: pointer;
+}
+
+.left {
+    width: 40vw;
+    margin-top: 100px;
+    color: white;
+}
+
+.left h1{
+    font-size: 40px;
+}
+
+.right {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.right img {
+    height: 250px;
+    width: 370px;
+}
+
+.main {
+    display: flex;
+}
+
+.para {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(252, 226, 226,0.7);
+    width: 420px;
+    line-height: 1.5;
+}
+
+.left button {
+    margin-top: 40px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 159, 102);
+    color: white;
+    font: bolder;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* second------------------------------ */
+.box {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.clip img {
+    height: 200px;
+}
+
+.content {
+    height: 200px;
+    width: 600px;
+    margin: 0px 115px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.icon {
+    height: 200px;
+    width: 50px;
+}
+
+.icon img{
+    height: 50px;
+    border-radius: 60px;
+    margin: 20px 0px;
+}
+
+.boxtwo {
+    background-color: #67bf95;
+    height: 100vh;
+    position: relative;
+}
+
+.heading5 {
+    width: 700px;
+    margin: auto;
+    color: white;
+    line-height: 1.8;
+    padding: 70px 0px ;
+}
+
+.heading5 p{
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.766);
+}
+
+.prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.photo{
+    width: 70%;
+    margin: auto;
+}
+
+.photo img{
+    margin-top: 40px;
+     width: 70vw;
+     height: 376px;
+     position: absolute;
+     bottom: 0px;
+}
+/* third--------------------------------- */
+.container,.sub-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.para2 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.508);
+    line-height: 2;
+}
+
+.table{
+    padding: 60px 0px;
+    display: grid;
+    grid-gap: 40px;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    color: white;
+}
+/* row one */
+.row{
+    text-align: center;   
+}
+
+.heading{
+    background-color: rgb(28, 48, 48);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item {
+    background-color: rgba(110, 176, 176, 0.1);
+    color: rgb(28, 48, 48) ;
+}
+
+.item ul li{
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button1{
+    margin-top: 40px;
+}
+
+.button1 button{
+    background-color: rgb(28, 48, 48);
+    padding: 10px 110px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;    
+}
+
+/* row two */
+
+.heading2{
+    background-color: rgb(46, 187, 4);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item2 {
+    background-color: rgba(55, 219, 5, 0.1);
+    color: rgb(28, 48, 48) ;
+}
+
+.item2 ul li{
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price2{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(42, 170, 3);
+}
+
+.button2{
+    margin-top: 40px;
+}
+
+.button2 button{
+    background-color: rgb(46, 187, 4);
+    padding: 10px 105px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;    
+}
+
+/* row three */
+
+.heading3{
+    background-color: rgb(0, 136, 146);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item3 {
+    background-color: rgba(55, 219, 5, 0.1);
+    color: rgb(28, 48, 48) ;
+}
+
+.item3 ul li{
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price3{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(0, 136, 146);
+}
+
+.button3{
+    margin-top: 40px;
+}
+
+.button3 button{
+    background-color:rgb(0, 136, 146);
+    padding: 10px 105px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;    
+}
+
+/* -----sub-container------ */
+
+.grey{
+    background-color: rgba(119, 136, 153, 0.2);
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    background-image: url(/Assest/Images/wheels.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+}
+
+.fade{
+    height: 100%;
+    background-color: rgba(152, 4, 4, 0.46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade img{
+    cursor: pointer;
+    height: 80px;
+}
+
+/* -----------------forth-------------------- */
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+} */
+
+.container10 {
+    background-color: #2f3136;
+    height: 94vh;
+
+}
+
+.image1 {
+    height: 180px;
+    width: 150px;
+    margin: auto;
+    border-radius: 100%;
+
+}
+
+.container11 {
+    display: flex;
+    justify-content: center;
+}
+
+.textbox {
+    color: #d7d7d7;
+    font-family: Roboto;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.inputbox2 {
+    width: 400px;
+    height: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #2f3338;
+    color:white ;
+    font-size: 20px;
+}
+
+.inputbox3 {
+    width: 350px;
+    height: 220px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: #2f3338;
+    color: white;
+    font-size: 20px;    
+}
+
+.contact1 {
+    margin-right: 130px;
+}
+
+.submit5{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+
+}
+
+.button5 {
+    background-color: #be393b;
+    width: 106px;
+    height: 43px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    border: None;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #292c30;
+    height: 50px;
+    color: #ffffffe3;
+
+}
+
+.container12 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right {
+    padding-left: 40px;
+    margin-left: 390px;
+}
+
+.footer-left {
+    margin-right: 50px;
+    padding: 20px 0px 0px 0px;
+    margin-left: 5px;
+}
+
+span{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.905);
+}
+
+.image-footer {
+    padding: 20px 0px 0px 0px;
+
+}
+
+.image-footer img {
+    height: 20px;
+}
+
+.footer-right img {
+    height: 33px;
+    margin-top: 10px;
+
+}
+
+sup{
+    color: red;
+    font-size: 30px;
+}
