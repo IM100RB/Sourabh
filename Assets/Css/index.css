@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .mainbody{
-    background-image: url(/Assest/Images/camera-man.jpg);
+    background-image: url(/Assets/Images/camera-man.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -341,7 +341,7 @@ h2 {
 }
 
 .video{
-    background-image: url(/Assest/Images/wheels.jpg);
+    background-image: url(/Assets/Images/wheels.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
