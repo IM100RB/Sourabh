@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 .container_image{
+=======
+.mainbody{
+>>>>>>> cf774d8ec4dc69e06122c433e9fca46b275abb62
     background-image: url(/Assets/Images/camera-man.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,7 +344,11 @@ h2 {
     align-items: center;
 }
 
+<<<<<<< HEAD
 .wheels-image{
+=======
+.video{
+>>>>>>> cf774d8ec4dc69e06122c433e9fca46b275abb62
     background-image: url(/Assets/Images/wheels.jpg);
     background-repeat: no-repeat;
     background-size: cover;
